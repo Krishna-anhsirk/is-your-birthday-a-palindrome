@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-colour: #fcd34d;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem auto;
+  width: 60%;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.input-container label {
+  margin: 0.5rem 0;
+}
+
+.input-container input {
+  height: 3rem;
+  margin: 1rem 0;
+}
+
+#show-palindrome {
+  background-color: var(--primary-colour);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  margin: 0 auto;
+  padding: 0.75rem;
+  width: 30%;
+}
+
+#output {
+  font-size: 1.2rem;
+}
