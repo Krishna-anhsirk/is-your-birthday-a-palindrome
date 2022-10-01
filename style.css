@@ -17,7 +17,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  margin: 3rem auto;
+  margin: 20vh auto;
   width: 60%;
 }
 
@@ -50,4 +50,23 @@ body {
 
 #output {
   font-size: 1.2rem;
+}
+
+/* Footer  */
+.footer {
+  position: fixed;
+  bottom: 0;
+  padding: 0 5rem;
+  left: 30vw;
+}
+
+a,
+img,
+li {
+  display: inline;
+}
+
+img {
+  width: 40px;
+  padding: 1rem 0.2rem;
 }
