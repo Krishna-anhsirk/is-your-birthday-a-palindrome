@@ -33,8 +33,10 @@ body {
 }
 
 .input-container input {
-  height: 3rem;
+  height: 5rem;
   margin: 1rem 0;
+  text-align: center;
+  font-size: 2rem;
 }
 
 #show-palindrome {
